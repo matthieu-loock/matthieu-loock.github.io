@@ -3,19 +3,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #2e3440;
+    color: #d8dee9;
 }
 
 /* Global Styles */
 body {
-    font-family: Shippori Antique, sans-serif;
+    font-family: Helvetica, sans-serif;
     line-height: 1.6;
 }
-
-.shippori-antique-regular {
-    font-family: "Shippori Antique", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
 
 .container {
     max-width: 960px;
@@ -24,8 +20,6 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
     padding: 20px 0;
 }
 
@@ -42,14 +36,16 @@ nav ul li {
     margin-right: 20px;
 }
 
-nav ul li a {
-    color: #fff;
+a {
     text-decoration: none;
+    color: #88c0d0;
+
 }
 
 .section {
     padding: 60px 0;
     text-align: center;
+
 }
 
 li {
@@ -57,8 +53,6 @@ li {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
     padding: 20px 0;
     position: fixed;
     bottom: 0;
